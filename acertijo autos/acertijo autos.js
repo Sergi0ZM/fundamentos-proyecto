@@ -10,8 +10,10 @@ function carro(){
     let car7 = document.getElementById("car7").value;
     let car8 = document.getElementById("car8").value;
 
-    if(car1 =="Shadow"){
-        document.getElementById("marca1").innerHTML = "Correcto";
+    if(car1 =="Shadow" && car2 =="McLaren" && car3 =="March" && car4 =="Ferrari" && car5 =="Lola" && car6 =="Lotus" && car7 =="Iso" && car8 =="Tyrrell"){
+        document.getElementById("marca1").innerHTML = "Felicidades, has resulto el acertijo";
+    }else{
+        document.getElementById("marca1").innerHTML = "Lo siento, no has acertado, vuelve a intentarlo";
     }
 
 

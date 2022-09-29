@@ -15,13 +15,24 @@
     <title>Autos</title>
     <style>
         .container {
-            width: 100vw;
-            height: 100vh;
-            background-color: white;
+            width: 100%;
+            height: auto;
+            background-color: yellow;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 0;
+            padding-right: 0;
+
         }
         
-        .encabezado{
-            margin: 12px;
+        .encabezado {
+            background-color: aqua;
+            width: 600px;
+            height: 200px;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            border-radius: 23px 23px 23px 23px;; 
         }
 
         .bi-backspace{
@@ -41,27 +52,35 @@
         h1 {
             color: black;
             text-align: center;
+            font-size: 2.5rem;
+            font-family: 'Kanit', sans-serif;
         }
 
-        .encabezado {
-            background-color: aqua;
-            width: 600px;
-            height: 200px;
-            justify-content: center;
-            align-items: center;
-            margin: 0 auto;
-        }
+        
 
         .pistas {
             margin-left: 5%;
         }
-        .tabla, th, td {
-            margin-left: 5%;
-            border: 1px solid black;
+        
+        .opciones{
+            justify-content: center;
+            width: 900px;
+            height: 90px;
+            background-color: blue;
+            margin: 0 auto;
         }
 
-        marca1{
-            text-align: center;
+        .tabla, th, td {
+            margin-left: 5%;
+           border-collapse: collapse;
+           border: 1px solid black;
+           padding: 5px;
+           background-color:magenta;
+        }
+
+        .respuesta {
+            width: 300px;
+            height: 50px;
         }
     </style>
 </head>
@@ -71,7 +90,7 @@
 
     <div class="container">
         <!-- boton de regresar a menu -->
-        <a class="bi bi-backspace" href="index.html">Regresar al menu</a>
+        <a class="bi bi-backspace" href="javascript:history.back()">Regresar al menu</a>
         
 
         <div class="encabezado">
@@ -84,7 +103,7 @@
             <h3> Intruciones</h3>
             <p>En grupo de 3 peronas deberán resolver el siguiente acertijo, para lo cual tendrán un tiempo de 8
                 minutos. Gana el grupo que primero lo resulva</p>
-            <p>Ocho autos, de masrcas y colores diferentes están alineados uno al lado del otro, para una carrera.
+            <p>Ocho autos, de marcas y colores diferentes están alineados uno al lado del otro, para una carrera.
                 Establezca el orden en que los autos están ubicados, basandose en la sigueinte información: </p>
             <br>
 
