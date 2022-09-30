@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,400;1,500&family=Kanit&family=Nabla&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/acertijoA.css" />
+  </head>
+
+  <body>
+    
+    <script src="./js/acertijoAutos.js"></script>
+
+    <main class="container">
+      <!-- boton de regresar a menu -->
+      <!-- <a class="button-back" href="javascript:history.back()">Regresar al menu</a> -->
+
+      <header class="header-container">
+        <div class="img-container">
+          <img src="../assets/logo_transparent.png" alt="Logo Eco System" />
+        </div>
+        <div class="text-container">
+          <h1>Bienvenido al Acertijo de Autos</h1>
+          <p>Resuelve el siguiente acertijo</p>
+        </div>
+      </header>
+
+      <section class="info-container">
+        <div class="instruction-container">
+          <h3>Instrucciones</h3>
+          <p>
+            En grupo de 3 peronas deberán resolver el siguiente acertijo, para
+            lo cual tendrán un tiempo de 8 minutos. Gana el grupo que primero lo
+            resulva
+          </p>
+          <p>
+            Ocho autos, de marcas y colores diferentes están alineados uno al
+            lado del otro, para una carrera. Establezca el orden en que los
+            autos están ubicados, basandose en la sigueinte información:
+          </p>
+        </div>
+        <div class="clue-container">
+          <h3>Pistas</h3>
+          <p>1. El Ferrari está entre el auto rojo y el gris.</p>
+          <p>2. El Auto gris esta a la izaquierda del Lotus.</p>
+          <p>
+            3. El McLaren es el segundo auto a la izquierda del Ferrari y el
+            primero a la derecha del auto azul.
+          </p>
+          <p>
+            4. El Tyrrell no tiene ningún auto a su derecha y esta despues del
+            auto negro.
+          </p>
+          <p>5. El auto negro está entre el Tyrrell y el auto amarillo.</p>
+          <p>
+            6. El Shedow no tiene ningún auto a la izquierda está a la izquierda
+            del auto verde.
+          </p>
+          <p>7. A la derecha del Auto verde está el March.</p>
+          <p>
+            8. El Lotus es el segundo auto a la derecha del auto crema y el
+            segundo a la izquierda del auto marron.
+          </p>
+          <p>9. El Lola es el segundo auto a la izquierda del Iso.</p>
+        </div>
+      </section>
+      <section class="opciones">
+        <!-- <th>Azul</th>
+                     <th>Verde</th>
+                      <th>Rojo</th>
+                      <th>Crema</th>
+                      <th>Ceniza</th>
+                      <th>Amarillo</th>
+                      <th>Negro</th>
+                      <th>Marron</th> -->
+
+        <select id="car1">
+          <option value="marca">Marca</option>
+          <option value="Tyrrell">Tyrrell</option>
+          <option value="McLaren">McLaren</option>
+          <option value="Lotus">Lotus</option>
+          <option value="Ferrari">Ferrari</option>
+          <option value="Lola">Lola</option>
+          <option value="March">March</option>
+          <option value="Shadow">Shadow</option>
+          <option value="Iso">Iso</option>
+        </select>
+
+        <select id="car2">
+          <option value="marca">Marca</option>
+          <option value="Tyrrell">Tyrrell</option>
+          <option value="McLaren">McLaren</option>
+          <option value="Lotus">Lotus</option>
+          <option value="Ferrari">Ferrari</option>
+          <option value="Lola">Lola</option>
+          <option value="March">March</option>
+          <option value="Shadow">Shadow</option>
+          <option value="Iso">Iso</option>
+        </select>
+        <select id="car3">
+          <option value="marca">Marca</option>
+          <option value="Tyrrell">Tyrrell</option>
+          <option value="McLaren">McLaren</option>
+          <option value="Lotus">Lotus</option>
+          <option value="Ferrari">Ferrari</option>
+          <option value="Lola">Lola</option>
+          <option value="March">March</option>
+          <option value="Shadow">Shadow</option>
+          <option value="Iso">Iso</option>
+        </select>
+
+        <select id="car4">
+          <option value="marca">Marca</option>
+          <option value="Tyrrell">Tyrrell</option>
+          <option value="McLaren">McLaren</option>
+          <option value="Lotus">Lotus</option>
+          <option value="Ferrari">Ferrari</option>
+          <option value="Lola">Lola</option>
+          <option value="March">March</option>
+          <option value="Shadow">Shadow</option>
+          <option value="Iso">Iso</option>
+        </select>
+
+        <select id="car5">
+          <option value="marca">Marca</option>
+          <option value="Tyrrell">Tyrrell</option>
+          <option value="McLaren">McLaren</option>
+          <option value="Lotus">Lotus</option>
+          <option value="Ferrari">Ferrari</option>
+          <option value="Lola">Lola</option>
+          <option value="March">March</option>
+          <option value="Shadow">Shadow</option>
+          <option value="Iso">Iso</option>
+        </select>
+        <select id="car6">
+          <option value="marca">Marca</option>
+          <option value="Tyrrell">Tyrrell</option>
+          <option value="McLaren">McLaren</option>
+          <option value="Lotus">Lotus</option>
+          <option value="Ferrari">Ferrari</option>
+          <option value="Lola">Lola</option>
+          <option value="March">March</option>
+          <option value="Shadow">Shadow</option>
+          <option value="Iso">Iso</option>
+        </select>
+        <select id="car7">
+          <option value="marca">Marca</option>
+          <option value="Tyrrell">Tyrrell</option>
+          <option value="McLaren">McLaren</option>
+          <option value="Lotus">Lotus</option>
+          <option value="Ferrari">Ferrari</option>
+          <option value="Lola">Lola</option>
+          <option value="March">March</option>
+          <option value="Shadow">Shadow</option>
+          <option value="Iso">Iso</option>
+        </select>
+
+        <select id="car8">
+          <option value="marca">Marca</option>
+          <option value="Tyrrell">Tyrrell</option>
+          <option value="McLaren">McLaren</option>
+          <option value="Lotus">Lotus</option>
+          <option value="Ferrari">Ferrari</option>
+          <option value="Lola">Lola</option>
+          <option value="March">March</option>
+          <option value="Shadow">Shadow</option>
+          <option value="Iso">Iso</option>
+        </select>
+
+        <div class="respuesta">
+            <button onclick="carro()">respuesta</button>
+          <span style="color: white;" id="marca1"></span>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.container {
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    min-width: 320px;
+    background: linear-gradient(0deg, rgba(93,20,157,1) 0%, rgba(17,56,161,1) 100%);
+}
+.img-container img {
+    width: 300px;
+    align-self: center;
+ }
+ .text-container {
+     min-width: auto;
+     margin-left: 40px;
+     padding: 12px;
+     text-align: center;
+ }
+ .text-container h1 {
+     font-size: 3.0rem;
+     font-family: 'Kanit', sans-serif;
+     color: #818f9c;
+ }
+ .text-container p {
+    padding-top: 8px;
+    font-size: 1.8rem;
+    font-family: 'DM Sans', sans-serif;
+    color:#818f9c;
+}
+/* .bi-backspace{
+        border-radius: 300px 0% 0% 300px;
+        background-color: rgb(170, 142, 238);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 80px;
+        width: 100px;
+        margin: 0px;
+        text-align: center;
+} */
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+.pistas {
+    margin-left: 5%;
+}
+
+.opciones{
+    justify-content: center;
+    width: 900px;
+    height: 90px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.tabla, th, td {
+    margin-left: 5%;
+   border-collapse: collapse;
+   border: 1px solid black;
+   padding: 5px;
+   background-color:magenta;
+}
+
+.respuesta {
+    width: 300px;
+    height: 50px;
+}
