@@ -4,46 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Inicio</title>    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,400;1,500&family=Kanit&family=Nabla&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/animations.css">
 </head>
 <body>
     <main>
-        <header class="header-container">
+        <header class="header-container fade-in-top">
             <div class="img-container">
                 <img src="./assets/logo_transparent2.0.png" alt="Logo Eco System">
             </div>
             <div class="text-container">
-                <h1 class="title">Bienvenido a nuestros juegos</h1>
-                <p class="subtitle">Nuestra propuesta esta diseñada para desarrollar dos acertijos los cuales estan planteados en solucionarse en un tiempo determinado, ¿estas listo para jugar?</p>
+                <h1 class="title">Te damos la bienvenida</h1>
+                <p class="subtitle">Explora nuestros retos planteados para solucionarse en un tiempo determinado, <b>¿estas listo para jugar?</b></p>
             </div>
         </header>
         <section class="middle-section">
             <p>Acertijos</p>
         </section>
-        <div class="container-buttons">
+        <div class="container-buttons fade-in-bottom">
             <a href="./src/acertijoE.html" class="btn1">
                 <p>Einstein</p>
-                <p>
-                    <br>
-                    <br>
-                    <br>
-                </p>
-                <p>Lorem ipsum dolor sit.</p>
+                <div class="icon-container">
+                    <img src="./assets/icon_mente.svg" alt="Einstein">
+                </div>
+                <!-- <p>Lorem ipsum dolor sit.</p> -->
             </a>
             <a class="btn2" href="./src/acertijoA.html" >
-                <p>Carros
-                </p>
-                <p>
-                    <br>
-                    <br>
-                    <br>
-                </p>
-                <p>Lorem ipsum dolor sit.</p>
-            </a>
+                <p>Carros</p>
+                <div class="icon-container">
+                    <img src="./assets/icon_auto.svg" alt="Autos">
+                </div>
+                <!-- <p>Lorem ipsum dolor sit.</p> -->
+            </a>            
         </div>
         <footer class="footer-container">
             All rights EcoSystem - 2022
