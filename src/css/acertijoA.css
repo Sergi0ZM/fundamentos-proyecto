@@ -77,12 +77,12 @@ html {
     font-family: 'Kanit', sans-serif;
 }
 .instruction-container p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: rgba(0,0,0,0.6);
     font-family: 'DM Sans', sans-serif;
 }
 .clue-container p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-family: 'DM Sans', sans-serif;
     color: rgba(0,0,0,0.6);
 }
