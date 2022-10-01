@@ -37,11 +37,18 @@ function carro() {
         counter++;
         console.log(counter);
     } else {
-        spanMarca.innerHTML = "Estas cerca " + counter + "/8";
+        console.log('count-ERROR')
     }
     //  para finalizar
+    if (counter >=0) {
+        spanMarca.innerHTML = "Sigue intentando, aciertos: " + counter + "/8";
+    } 
+    if (counter >= 5) {
+        spanMarca.innerHTML = "Estás cerca, aciertos: " + counter + "/8";
+    }
+
     if (counter == 8) {
-        spanMarca.innerHTML = "Felicidades, has resuelto el acertijo, CULONA <3";
+        spanMarca.innerHTML = "Felicidades, has resuelto el acertijo!";
     }
 }
 

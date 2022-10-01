@@ -37,7 +37,7 @@
                 <p>
                     En grupo de 3 peronas deberán resolver el siguiente acertijo, para
                     lo cual tendrán un tiempo de 8 minutos. Gana el grupo que primero lo
-                    resulva
+                    resuelva
                 </p>
                 <p>
                     Ocho autos, de marcas y colores diferentes están alineados uno al
@@ -47,34 +47,34 @@
             </div>
             <div class="clue-container">
                 <h3>Pistas</h3>
-                <p>1. El Ferrari está entre el auto rojo y el gris.</p>
-                <p>2. El Auto gris esta a la izaquierda del Lotus.</p>
+                <p><b>1.</b> El Ferrari está entre el auto rojo y el gris.</p>
+                <p><b>2.</b> El Auto gris esta a la izaquierda del Lotus.</p>
                 <p>
-                    3. El McLaren es el segundo auto a la izquierda del Ferrari y el
+                    <b>3.</b> El McLaren es el segundo auto a la izquierda del Ferrari y el
                     primero a la derecha del auto azul.
                 </p>
                 <p>
-                    4. El Tyrrell no tiene ningún auto a su derecha y esta despues del
+                    <b>4.</b> El Tyrrell no tiene ningún auto a su derecha y esta despues del
                     auto negro.
                 </p>
-                <p>5. El auto negro está entre el Tyrrell y el auto amarillo.</p>
+                <p><b>5.</b> El auto negro está entre el Tyrrell y el auto amarillo.</p>
                 <p>
-                    6. El Shedow no tiene ningún auto a la izquierda está a la izquierda
+                    <b>6.</b> El Shadow no tiene ningún auto a la izquierda está a la izquierda
                     del auto verde.
                 </p>
-                <p>7. A la derecha del Auto verde está el March.</p>
+                <p><b>7.</b> A la derecha del Auto verde está el March.</p>
                 <p>
-                    8. El Lotus es el segundo auto a la derecha del auto crema y el
+                    <b>8.</b> El Lotus es el segundo auto a la derecha del auto crema y el
                     segundo a la izquierda del auto marron.
                 </p>
-                <p>9. El Lola es el segundo auto a la izquierda del Iso.</p>
+                <p><b>9.</b> El Lola es el segundo auto a la izquierda del Iso.</p>
             </div>
         </section>
 
         <section class="opciones">
             <div class="opcion">
                 <img src="../assets/icon_auto_azul.svg" />
-                <select id="car1">
+                <select class="select-container" id="car1">
                     <option value="marca">Marca</option>
                     <option value="Tyrrell">Tyrrell</option>
                     <option value="McLaren">McLaren</option>
@@ -89,7 +89,7 @@
 
             <div class="opcion">
                 <img src="../assets/icon_auto_verde.svg" />
-                <select id="car2">
+                <select class="select-container" id="car2">
                     <option value="marca">Marca</option>
                     <option value="Tyrrell">Tyrrell</option>
                     <option value="McLaren">McLaren</option>
@@ -104,7 +104,7 @@
 
             <div class="opcion">
                 <img src="../assets/icon_auto_rojo.svg" />
-                <select id="car3">
+                <select class="select-container" id="car3">
                     <option value="marca">Marca</option>
                     <option value="Tyrrell">Tyrrell</option>
                     <option value="McLaren">McLaren</option>
@@ -119,7 +119,7 @@
 
             <div class="opcion">
                 <img src="../assets/icon_auto_crema.svg" />
-                <select id="car4">
+                <select class="select-container" id="car4">
                     <option value="marca">Marca</option>
                     <option value="Tyrrell">Tyrrell</option>
                     <option value="McLaren">McLaren</option>
@@ -134,7 +134,7 @@
 
             <div class="opcion">
                 <img src="../assets/icon_auto_ceniza.svg" />
-                <select id="car5">
+                <select class="select-container" id="car5">
                     <option value="marca">Marca</option>
                     <option value="Tyrrell">Tyrrell</option>
                     <option value="McLaren">McLaren</option>
@@ -149,7 +149,7 @@
 
             <div class="opcion">
                 <img src="../assets/icon_auto_amarillo.svg" />
-                <select id="car6">
+                <select class="select-container" id="car6">
                     <option value="marca">Marca</option>
                     <option value="Tyrrell">Tyrrell</option>
                     <option value="McLaren">McLaren</option>
@@ -163,7 +163,7 @@
             </div>
             <div class="opcion">
                 <img src="../assets/icon_auto_negro.svg" />
-                <select id="car7">
+                <select class="select-container" id="car7">
                     <option value="marca">Marca</option>
                     <option value="Tyrrell">Tyrrell</option>
                     <option value="McLaren">McLaren</option>
@@ -178,7 +178,7 @@
 
             <div class="opcion">
                 <img src="../assets/icon_auto_marron.svg" />
-                <select id="car8">
+                <select class="select-container" id="car8">
                     <option value="marca">Marca</option>
                     <option value="Tyrrell">Tyrrell</option>
                     <option value="McLaren">McLaren</option>
@@ -190,13 +190,14 @@
                     <option value="Iso">Iso</option>
                 </select>
             </div>
-
-            <div class="respuesta">
-                <button onclick="carro()">respuesta</button>
-                <span style="color: white" id="marca1"></span>
-            </div>
         </section>
+        <div class="answer-container">
+            <button class="button-answer" onclick="carro()">Respuesta</button>
+            <span id="marca1"></span>
+        </div>
+        <footer class="footer-container">
+            <p>All rights EcoSystem - 2022</p> 
+        </footer>
     </main>
 </body>
-
 </html>
