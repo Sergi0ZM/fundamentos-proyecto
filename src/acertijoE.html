@@ -27,7 +27,7 @@
 
             <ul style="list-style-type: square;">
                 <li>Por una calle existen 5 casas de diferentes colores.</li>
-                <li> En cadauna de las casas vive una persona con una diferente nacionalidad. </li>
+                <li> En cada una de las casas vive una persona con una diferente nacionalidad. </li>
                 <li>Los 5 dueños beben una determinada bebida</li>
                 <li> Cada dueño fuma una marca de cigarrillo diferente</li>
                 <li> Cada dueño tiene una mascota diferente</li>
@@ -77,17 +77,17 @@
                         <b>🏠 Casa 5</b>
                     </td>
                     </th>
-                    <tr>
+                    <tr onchange=nacionalidad();>
 
                         <td> 
                             <b>Nacionalidad</b>    
                         </td>
                         <td>
-                            <select name="" id="casa1nacionalidad">
+                            <select name="" id="casa1nacionalidad" >
                                 <option value="Nacionalidad">Nacionalidad</option>
                                 <option value="Sueco">Sueco</option>
                                 <option value="Danes">Danes</option>
-                                <option vañue="Noruego">Noruego</option>
+                                <option value="Noruego">Noruego</option>
                                 <option value="Aleman">Aleman</option>
                                 <option value="Britanico">Britanico</option>
 
@@ -98,7 +98,7 @@
                                 <option value="Nacionalidad">Nacionalidad</option>
                                 <option value="Sueco">Sueco</option>
                                 <option value="Danes">Danes</option>
-                                <option vañue="Noruego">Noruego</option>
+                                <option value="Noruego">Noruego</option>
                                 <option value="Aleman">Aleman</option>
                                 <option value="Britanico">Britanico</option>
 
@@ -109,7 +109,7 @@
                                 <option value="Nacionalidad">Nacionalidad</option>
                                 <option value="Sueco">Sueco</option>
                                 <option value="Danes">Danes</option>
-                                <option vañue="Noruego">Noruego</option>
+                                <option value="Noruego">Noruego</option>
                                 <option value="Aleman">Aleman</option>
                                 <option value="Britanico">Britanico</option>
                                 
@@ -120,7 +120,7 @@
                                 <option value="Nacionalidad">Nacionalidad</option>
                                 <option value="Sueco">Sueco</option>
                                 <option value="Danes">Danes</option>
-                                <option vañue="Noruego">Noruego</option>
+                                <option value="Noruego">Noruego</option>
                                 <option value="Aleman">Aleman</option>
                                 <option value="Britanico">Britanico</option>
                                 
@@ -132,7 +132,7 @@
                                 <option value="Nacionalidad">Nacionalidad</option>
                                 <option value="Sueco">Sueco</option>
                                 <option value="Danes">Danes</option>
-                                <option vañue="Noruego">Noruego</option>
+                                <option value="Noruego">Noruego</option>
                                 <option value="Aleman">Aleman</option>
                                 <option value="Britanico">Britanico</option>
                                 
@@ -141,7 +141,7 @@
 
                     </tr>
 
-                    <tr>
+                    <tr onchange="color();">
                         <td>
                             <b>Color</b>    
                         </td>
@@ -150,7 +150,7 @@
                                 <option value="Color">Color</option>
                                 <option value="Azul">Azul</option>
                                 <option value="Amarilla">Amarilla</option>
-                                <option vañue="Roja">Roja</option>
+                                <option value="Roja">Roja</option>
                                 <option value="Blanca">Blanca</option>
                                 <option value="Verde">Verde</option>
                                 
@@ -162,7 +162,7 @@
                                 <option value="Color">Color</option>
                                 <option value="Azul">Azul</option>
                                 <option value="Amarilla">Amarilla</option>
-                                <option vañue="Roja">Roja</option>
+                                <option value="Roja">Roja</option>
                                 <option value="Blanca">Blanca</option>
                                 <option value="Verde">Verde</option>
                                 
@@ -174,7 +174,7 @@
                                 <option value="Color">Color</option>
                                 <option value="Azul">Azul</option>
                                 <option value="Amarilla">Amarilla</option>
-                                <option vañue="Roja">Roja</option>
+                                <option value="Roja">Roja</option>
                                 <option value="Blanca">Blanca</option>
                                 <option value="Verde">Verde</option>
                                 
@@ -186,7 +186,7 @@
                                 <option value="Color">Color</option>
                                 <option value="Azul">Azul</option>
                                 <option value="Amarilla">Amarilla</option>
-                                <option vañue="Roja">Roja</option>
+                                <option value="Roja">Roja</option>
                                 <option value="Blanca">Blanca</option>
                                 <option value="Verde">Verde</option>
                                 
@@ -198,7 +198,7 @@
                                 <option value="Color">Color</option>
                                 <option value="Azul">Azul</option>
                                 <option value="Amarilla">Amarilla</option>
-                                <option vañue="Roja">Roja</option>
+                                <option value="Roja">Roja</option>
                                 <option value="Blanca">Blanca</option>
                                 <option value="Verde">Verde</option>
                                 
@@ -208,7 +208,7 @@
 
                     </tr>
 
-                    <tr>
+                    <tr onchange="cigarrillos()">
                         <td>
                             <b>Cigarrillos</b>    
                         </td>
@@ -217,7 +217,7 @@
                                 <option value="Cigarrillos">Cigarrillos</option>
                                 <option value="Pall Mall">Pall Mall</option>
                                 <option value="Dunhill">Dunhill</option>
-                                <option vañue="Blends">Blends</option>
+                                <option value="Blends">Blends</option>
                                 <option value="Blue Master">Blue Master</option>
                                 <option value="Prince">Prince</option>
                                 
@@ -229,7 +229,7 @@
                                 <option value="Cigarrillos">Cigarrillos</option>
                                 <option value="Pall Mall">Pall Mall</option>
                                 <option value="Dunhill">Dunhill</option>
-                                <option vañue="Blends">Blends</option>
+                                <option value="Blends">Blends</option>
                                 <option value="Blue Master">Blue Master</option>
                                 <option value="Prince">Prince</option>
                                 
@@ -241,7 +241,7 @@
                                 <option value="Cigarrillos">Cigarrillos</option>
                                 <option value="Pall Mall">Pall Mall</option>
                                 <option value="Dunhill">Dunhill</option>
-                                <option vañue="Blends">Blends</option>
+                                <option value="Blends">Blends</option>
                                 <option value="Blue Master">Blue Master</option>
                                 <option value="Prince">Prince</option>
                                 
@@ -253,7 +253,7 @@
                                 <option value="Cigarrillos">Cigarrillos</option>
                                 <option value="Pall Mall">Pall Mall</option>
                                 <option value="Dunhill">Dunhill</option>
-                                <option vañue="Blends">Blends</option>
+                                <option value="Blends">Blends</option>
                                 <option value="Blue Master">Blue Master</option>
                                 <option value="Prince">Prince</option>
                                 
@@ -265,7 +265,7 @@
                                 <option value="Cigarrillos">Cigarrillos</option>
                                 <option value="Pall Mall">Pall Mall</option>
                                 <option value="Dunhill">Dunhill</option>
-                                <option vañue="Blends">Blends</option>
+                                <option value="Blends">Blends</option>
                                 <option value="Blue Master">Blue Master</option>
                                 <option value="Prince">Prince</option>
                                 
@@ -274,14 +274,14 @@
                         </td>
                     </tr>
 
-                    <tr>
+                    <tr onchange="bebida();">
                         <td>Bebida</td>
                         <td>
                             <select name="" id="casa1bebida">
                                 <option value="Bebida">Bebida</option>
                                 <option value="Agua">Agua</option>
                                 <option value="Te">Te</option>
-                                <option vañue="Cafe">Cafe</option>
+                                <option value="Cafe">Cafe</option>
                                 <option value="Leche">Leche</option>
                                 <option value="Cerveza">Cerveza</option>
                                 
@@ -293,7 +293,7 @@
                                 <option value="Bebida">Bebida</option>
                                 <option value="Agua">Agua</option>
                                 <option value="Te">Te</option>
-                                <option vañue="Cafe">Cafe</option>
+                                <option value="Cafe">Cafe</option>
                                 <option value="Leche">Leche</option>
                                 <option value="Cerveza">Cerveza</option>
                                 
@@ -305,7 +305,7 @@
                                 <option value="Bebida">Bebida</option>
                                 <option value="Agua">Agua</option>
                                 <option value="Te">Te</option>
-                                <option vañue="Cafe">Cafe</option>
+                                <option value="Cafe">Cafe</option>
                                 <option value="Leche">Leche</option>
                                 <option value="Cerveza">Cerveza</option>
                                 
@@ -317,7 +317,7 @@
                                 <option value="Bebida">Bebida</option>
                                 <option value="Agua">Agua</option>
                                 <option value="Te">Te</option>
-                                <option vañue="Cafe">Cafe</option>
+                                <option value="Cafe">Cafe</option>
                                 <option value="Leche">Leche</option>
                                 <option value="Cerveza">Cerveza</option>
                                 
@@ -329,7 +329,7 @@
                                 <option value="Bebida">Bebida</option>
                                 <option value="Agua">Agua</option>
                                 <option value="Te">Te</option>
-                                <option vañue="Cafe">Cafe</option>
+                                <option value="Cafe">Cafe</option>
                                 <option value="Leche">Leche</option>
                                 <option value="Cerveza">Cerveza</option>
                                 
@@ -338,14 +338,14 @@
                         </td>
                     </tr>
 
-                    <tr>
+                    <tr onchange="mascota();">
                         <td>Mascota</td>
                         <td>
                             <select name="" id="casa1mascota">
                                 <option value="Mascota">Mascota</option>
                                 <option value="Perro">Perro</option>
                                 <option value="Gato">Gato</option>
-                                <option vañue="Pajaro">Pajaro</option>
+                                <option value="Pajaro">Pajaro</option>
                                 <option value="Pez">Pez</option>
                                 <option value="Caballo">Caballo</option>
                                 
@@ -357,7 +357,7 @@
                                 <option value="Mascota">Mascota</option>
                                 <option value="Perro">Perro</option>
                                 <option value="Gato">Gato</option>
-                                <option vañue="Pajaro">Pajaro</option>
+                                <option value="Pajaro">Pajaro</option>
                                 <option value="Pez">Pez</option>
                                 <option value="Caballo">Caballo</option>
                                 
@@ -369,7 +369,7 @@
                                 <option value="Mascota">Mascota</option>
                                 <option value="Perro">Perro</option>
                                 <option value="Gato">Gato</option>
-                                <option vañue="Pajaro">Pajaro</option>
+                                <option value="Pajaro">Pajaro</option>
                                 <option value="Pez">Pez</option>
                                 <option value="Caballo">Caballo</option>
                                 
@@ -381,7 +381,7 @@
                                 <option value="Mascota">Mascota</option>
                                 <option value="Perro">Perro</option>
                                 <option value="Gato">Gato</option>
-                                <option vañue="Pajaro">Pajaro</option>
+                                <option value="Pajaro">Pajaro</option>
                                 <option value="Pez">Pez</option>
                                 <option value="Caballo">Caballo</option>
                                 
@@ -393,7 +393,7 @@
                                 <option value="Mascota">Mascota</option>
                                 <option value="Perro">Perro</option>
                                 <option value="Gato">Gato</option>
-                                <option vañue="Pajaro">Pajaro</option>
+                                <option value="Pajaro">Pajaro</option>
                                 <option value="Pez">Pez</option>
                                 <option value="Caballo">Caballo</option>
                                 
@@ -404,6 +404,30 @@
                 </table>
                 <br>
 
+                <div class="Respuestas">
+                    <button onclick="nacionalidad()">Respuestas correctas nacionalidad</button>
+                    <span style="color: black" id="respuestasnacionalidad"></span>
+                    <br>
+                    <br>
+                    <button onclick="bebida()">Respuestas correctas bebidas</button>
+                    <span style="color: black" id="respuestasbebida"></span>
+                    <br>
+                    <br>
+                    <button onclick="cigarrillos();">Respuestascorrectas cigarrillos </button>
+                    <span style="color: black" id="respuestascigarrillos"></span>
+                    <br>
+                    <br>
+                    <button onclick="color();">Respuestas correctas Color</button>
+                    <span style="color: black" id="respuestascolor"></span>
+                    <br>
+                    <br>
+                    <button onclick="mascota();">Respuestas correctas Mascotas</button>
+                    <span style="color: black" id="respuestasmascotas"></span>
+                
+
+                </div>
+
+                <br>
             </div>
         </div>
 
