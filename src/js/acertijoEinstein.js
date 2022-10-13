@@ -183,23 +183,23 @@ function mascota(){
         contadorc1=0;
     }
     if(mascota2=="Caballo"){
-        contadorc2=1
+        contadorc2=1;
     }else{
         contadorc2=0;
     }
     if(mascota3=="Pajaro"){
-        contadorc3=1
+        contadorc3=1;
     }else{
         contadorc3=0;
     }
     if(mascota4=="Pez"){
-        contadorc4=1
-        alert("Felicidades, has ganado")
+        contadorc4=1;
+        alert("Felicidades, has ganado");
     }else{
         contadorc4=0;
     }
     if(mascota5=="Perro"){
-        contadorc5=1
+        contadorc5=1;
     }
     else{
         contadorc5=0;
